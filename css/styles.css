@@ -27,7 +27,7 @@ p {
 }
 
 img {
-  display: block
+  display: block;
 }
 
 header {
@@ -37,12 +37,11 @@ header {
 .container {
   max-width: 1158px;
   padding: 0 15px 0 15px;
-    margin: 0 auto;
-  
+  margin: 0 auto;
 }
 .header .container {
   display: flex;
-    margin: 0 auto;
+  margin: 0 auto;
   justify-content: space-between;
 }
 a {
@@ -139,15 +138,10 @@ ul {
   width: 1440px;
   padding: 188px 0 188px 0px;
   margin: auto;
- 
-  
 }
 .hero-image .container {
-  
-    margin: 0 auto;
+  margin: 0 auto;
   display: block;
-
-  
 }
 
 .title {
@@ -173,11 +167,11 @@ ul {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
-min-width: 169px;
+  min-width: 169px;
   border-radius: 4px;
   border: none;
   padding: 16px 32px;
-height: 56px;
+  height: 56px;
   margin: 0 auto;
   display: block;
 }
@@ -193,19 +187,17 @@ button:focus {
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
-
 }
 .section .section-container {
-    display: flex;
-      margin: 0 auto;
+  display: flex;
+  margin: 0 auto;
 }
 
 .section-container {
   display: flex;
   gap: 24px;
   justify-content: flex-end;
-margin-right: 24px;
-
+  margin-right: 24px;
 }
 .section-container .item {
   width: calc((100% - 72px) / 4);
@@ -217,11 +209,10 @@ margin-right: 24px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  
 }
 
 .visually-hidden {
-display: none;
+  display: none;
 }
 
 .section-container .team-card {
