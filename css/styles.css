@@ -258,18 +258,21 @@ button:focus {
 }
 
 .project-card img {
+  display: block;
   object-fit: contain;
-
   width: 100%;
-  margin-bottom: 32px;
 }
 
 .section3-container .project-card {
   width: calc((100% / 3) - (24px * 2) / 3);
 }
 
-.project-card {
+.project-card-border {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
   padding-bottom: 32px;
+  padding-top: 32px;
 }
 
 .section3-container {
