@@ -12,15 +12,15 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.com/libraries/modern-normalize"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Header-->
-    <header>
+    <header class="header">
       <div class="container">
-        <nav>
+        <nav class="nav">
           <!--logo-->
           <a class="webstudio-logo" href="./index.html"
             >Web<span class="accent-studio">Studio</span></a
@@ -57,14 +57,17 @@
     <main>
       <section class="hero-image">
         <!--hero image-->
+        <div class="container">
         <h1 class="title">Effective Solutions for Your Business</h1>
         <button class="button" type="button">Order Service</button>
+        </div>
       </section>
 
       <!--Section1-->
+      <div class="container">
       <section class="section">
-        <h2 class="title-sect">Text</h2>
-        <div class="container">
+        <h2 class="title-sect visually-hidden">Text</h2>
+       
           <ul class="section-container">
             <li class="item">
               <!--Feature 1-->
@@ -102,13 +105,15 @@
               </p>
             </li>
           </ul>
-        </div>
+       
       </section>
+      </div>
 
       <!--section2-->
+      <div class="container">
       <section class="team section">
         <h2 class="sect-title">Our Team</h2>
-        <div class="container">
+        
           <ul class="section-container">
             <li class="team-card">
               <!--Team Card 1-->
@@ -201,8 +206,9 @@
               </div>
             </li>
           </ul>
-        </div>
+        
       </section>
+      </div>
     </main>
 
     <!--Footer-->
